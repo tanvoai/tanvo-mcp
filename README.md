@@ -114,7 +114,7 @@ API reference: the [Python](https://github.com/tanvoai/tanvo-python) and [JavaSc
 ## Also from Tanvo
 
 - [tanvo-python](https://github.com/tanvoai/tanvo-python): `pip install tanvo`
-- [tanvo-js](https://github.com/tanvoai/tanvo-js): `npm install tanvo`
+- [tanvo-js](https://github.com/tanvoai/tanvo-js): `npm install @tanvoai/sdk`
 
 ## License
 
