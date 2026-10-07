@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.tanvo/tanvo-mcp",
+  "title": "Tanvo",
+  "description": "AI photo, video and song apps plus image, video and music generation on Tanvo (tanvo.ai).",
+  "repository": { "url": "https://github.com/tanvoai/tanvo-mcp", "source": "github" },
+  "version": "0.2.0",
+  "websiteUrl": "https://tanvo.ai",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "tanvo-mcp",
+      "version": "0.2.0",
+      "transport": { "type": "stdio" },
+      "environmentVariables": [
+        { "name": "TANVO_API_KEY", "description": "API key from tanvo.ai Settings → API keys. Optional: without it only the free house image engine runs.", "isRequired": false, "isSecret": true },
+        { "name": "TANVO_OUTPUT_DIR", "description": "Optional folder to save results into", "isRequired": false, "isSecret": false }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "tanvo",
+  "version": "0.2.0",
+  "description": "Tanvo AI photo, video and song apps and generation (tanvo.ai) as an MCP server, plus a skill for the no-key image API.",
+  "author": {
+    "name": "Tanvo",
+    "url": "https://tanvo.ai"
+  },
+  "homepage": "https://tanvo.ai",
+  "repository": "https://github.com/tanvoai/tanvo-mcp",
+  "license": "MIT",
+  "keywords": [
+    "ai",
+    "image-generation",
+    "video-generation",
+    "music-generation",
+    "mcp"
+  ]
+}

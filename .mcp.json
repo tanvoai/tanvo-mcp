@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "tanvo": { "command": "npx", "args": ["-y", "tanvo-mcp"] }
+  }
+}
