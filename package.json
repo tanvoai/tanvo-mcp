@@ -3,19 +3,49 @@
   "version": "0.2.0",
   "mcpName": "ai.tanvo/tanvo-mcp",
   "description": "MCP server for Tanvo (tanvo.ai): run 80 ready-made AI photo, video and song apps on your own photos, or generate images, video and music on Nano Banana, Seedream, GPT Image, Veo, Kling, Seedance and Suno from Claude, Cursor, Codex or any MCP client. The house image engine works with no API key.",
-  "keywords": ["mcp", "mcp-server", "model-context-protocol", "ai-image-generator", "ai-video-generator", "ai-music-generator", "image-to-video", "photo-editing", "nano-banana", "seedream", "veo", "kling", "seedance", "suno", "claude", "cursor", "tanvo"],
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "ai-image-generator",
+    "ai-video-generator",
+    "ai-music-generator",
+    "image-to-video",
+    "photo-editing",
+    "nano-banana",
+    "seedream",
+    "veo",
+    "kling",
+    "seedance",
+    "suno",
+    "claude",
+    "cursor",
+    "tanvo"
+  ],
   "homepage": "https://tanvo.ai/?utm_source=npm&utm_medium=referral",
-  "repository": { "type": "git", "url": "git+https://github.com/tanvoai/tanvo-mcp.git" },
-  "bugs": { "url": "https://github.com/tanvoai/tanvo-mcp/issues" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanvoai/tanvo-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tanvoai/tanvo-mcp/issues"
+  },
   "author": "Tanvo (https://tanvo.ai)",
   "license": "MIT",
   "type": "module",
-  "bin": { "tanvo-mcp": "dist/index.js" },
-  "files": ["dist", "README.md", "LICENSE"],
+  "bin": {
+    "tanvo-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "start": "node dist/index.js",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm test",
+    "test": "npm run build && node test/smoke.mjs"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.17.0",
@@ -25,5 +55,7 @@
     "@types/node": "^20",
     "typescript": "^5"
   },
-  "engines": { "node": ">=20" }
+  "engines": {
+    "node": ">=20"
+  }
 }
