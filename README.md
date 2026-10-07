@@ -113,7 +113,7 @@ npm run build
 TANVO_BASE_URL=http://localhost:3210 node dist/index.js
 ```
 
-API reference: the [Python](https://github.com/tanvoai/tanvo-python) and [JavaScript](https://github.com/tanvoai/tanvo-js) client READMEs, and [tanvo.ai/llms-full.txt](https://tanvo.ai/llms-full.txt).
+Docs: [tanvo.ai/developers/mcp](https://tanvo.ai/developers/mcp?utm_source=github&utm_medium=referral) · API reference: [tanvo.ai/developers/api](https://tanvo.ai/developers/api?utm_source=github&utm_medium=referral) · OpenAPI: [tanvo.ai/openapi.yaml](https://tanvo.ai/openapi.yaml)
 
 ## Also from Tanvo
 
