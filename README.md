@@ -1,3 +1,5 @@
+<img src="assets/logo-400.png" width="72" alt="Tanvo" align="right">
+
 # Tanvo MCP
 
 [![npm](https://img.shields.io/npm/v/tanvo-mcp)](https://www.npmjs.com/package/tanvo-mcp) [![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
@@ -69,6 +71,8 @@ command = "npx"
 args = ["-y", "tanvo-mcp"]
 env = { TANVO_API_KEY = "sk_..." }
 ```
+
+AI agents that install servers themselves (Cline and others) can follow [llms-install.md](llms-install.md).
 
 ## Free tier and API keys
 
