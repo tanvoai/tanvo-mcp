@@ -6,7 +6,7 @@ import { readFile, stat, writeFile } from "node:fs/promises";
 import { homedir } from "node:os";
 import { basename, extname, join, resolve } from "node:path";
 
-export const VERSION = "0.2.0";
+export const VERSION = "0.2.1";
 export const BASE_URL = (process.env.TANVO_BASE_URL ?? "https://tanvo.ai").replace(/\/$/, "");
 const API_KEY = process.env.TANVO_API_KEY?.trim() || undefined;
 export const hasKey = () => !!API_KEY;

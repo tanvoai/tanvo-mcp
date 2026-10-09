@@ -1,6 +1,6 @@
 {
   "name": "tanvo",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Run Tanvo's AI photo, video and song apps on your photos, or generate images, video and music on Nano Banana, Seedream, Veo, Kling, Seedance and Suno.",
   "mcpServers": {
     "tanvo": { "command": "npx", "args": ["-y", "tanvo-mcp"] }

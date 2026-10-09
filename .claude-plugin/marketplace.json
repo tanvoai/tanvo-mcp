@@ -2,6 +2,6 @@
   "name": "tanvo",
   "owner": { "name": "Tanvo", "url": "https://tanvo.ai" },
   "plugins": [
-    { "name": "tanvo", "source": "./", "description": "Tanvo AI photo, video and song apps and generation for Claude Code.", "version": "0.2.0" }
+    { "name": "tanvo", "source": "./", "description": "Tanvo AI photo, video and song apps and generation for Claude Code.", "version": "0.2.1" }
   ]
 }

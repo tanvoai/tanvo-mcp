@@ -1,6 +1,6 @@
 {
   "name": "tanvo-mcp",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "mcpName": "ai.tanvo/tanvo-mcp",
   "description": "MCP server for Tanvo (tanvo.ai): run 80 ready-made AI photo, video and song apps on your own photos, or generate images, video and music on Nano Banana, Seedream, GPT Image, Veo, Kling, Seedance and Suno from Claude, Cursor, Codex or any MCP client. The house image engine works with no API key.",
   "keywords": [
